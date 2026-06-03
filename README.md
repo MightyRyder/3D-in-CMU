@@ -9,3 +9,5 @@ Live demo @ https://academy.cs.cmu.edu/ide#46199458
 More documentation in code I'm too lazy to write it here too *yawn*
 
 Actually wait I can just iframe it @ index.html too I'm so proud of myself
+
+https://mightyryder.github.io/3D-in-CMU/
