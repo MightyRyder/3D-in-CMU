@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>3D in CMU</title>
+    <title>3D in CMU</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; background: black; }
+      .iframe-wrapper {
+        position: relative;
+        width: min(100vw, calc(100vh * (410 / 460)));
+        aspect-ratio: 410 / 460;
+      }
+      iframe {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        border: none;
+      }
+    </style>
   </head>
   <body>
-      <iframe width="410" height="460" src="https://academy.cs.cmu.edu/sharing/floralWhiteCheetah249715/embed"></iframe>
+    <div class="iframe-wrapper">
+      <iframe src="https://academy.cs.cmu.edu/sharing/floralWhiteCheetah249715/embed" allowfullscreen></iframe>
+    </div>
   </body>
 </html>
